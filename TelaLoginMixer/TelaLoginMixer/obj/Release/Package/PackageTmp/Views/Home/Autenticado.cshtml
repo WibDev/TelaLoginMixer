@@ -1,0 +1,28 @@
+﻿@model TelaLoginMixer.Models.MixerData
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Autenticado</title>
+</head>
+<body>
+    <div>
+        <div>Avatar URL:</div>
+        <div>
+            <img src="@Model.User.avatarUrl" />
+           
+        </div>
+
+        <div>User Name</div>
+        <div>@Model.User.username</div>
+
+
+        
+    </div>
+</body>
+</html>

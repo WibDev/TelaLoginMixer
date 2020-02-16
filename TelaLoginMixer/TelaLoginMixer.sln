@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelaLoginMixer", "TelaLoginMixer\TelaLoginMixer.csproj", "{E5190AA8-04BB-423F-A783-E2E2CCE275AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mixer.Base", "..\Mixer.Base\Mixer.Base.csproj", "{D0C6923E-FE07-4EA3-9D02-901065C1D4BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingClient.Base", "..\StreamingClient.Base\StreamingClient.Base.csproj", "{6270E12D-C167-4E66-BEA7-3376673F417F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5190AA8-04BB-423F-A783-E2E2CCE275AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5190AA8-04BB-423F-A783-E2E2CCE275AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5190AA8-04BB-423F-A783-E2E2CCE275AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5190AA8-04BB-423F-A783-E2E2CCE275AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C6923E-FE07-4EA3-9D02-901065C1D4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C6923E-FE07-4EA3-9D02-901065C1D4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C6923E-FE07-4EA3-9D02-901065C1D4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C6923E-FE07-4EA3-9D02-901065C1D4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6270E12D-C167-4E66-BEA7-3376673F417F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6270E12D-C167-4E66-BEA7-3376673F417F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6270E12D-C167-4E66-BEA7-3376673F417F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6270E12D-C167-4E66-BEA7-3376673F417F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F68CEE9-8384-477B-AE94-4BD8A89E7519}
+	EndGlobalSection
+EndGlobal
